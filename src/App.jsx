@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./assets/Footer";
 function App() {
   return (
     <>
@@ -288,6 +289,9 @@ function App() {
               </div>
             </div>
           </div>
+        </section>
+        <section>
+          <Footer />
         </section>
       </div>
     </>
