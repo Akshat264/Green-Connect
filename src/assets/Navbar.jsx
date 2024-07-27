@@ -7,7 +7,7 @@ function Navbar() {
   const [isMenuVisible, setMenuVisible] = useState(false);
 
   return (
-    <nav className="fixed z-[100] h-14 inset-x-0 top-0 w-full border-b border-gray-200 bg-black/75 backdrop-blur-lg transition-all">
+    <nav className="fixed z-[100] h-14 inset-x-0 top-0 w-full select-none border-b border-gray-200 bg-black/75 backdrop-blur-lg transition-all">
       <div className="flex  py-2 px-3 text-white justify-between items-center">
         <div className="flex items-center">
           <img className="w-10 inline-block" src="logo.png" alt="Logo" />
@@ -28,12 +28,24 @@ function Navbar() {
                   className="text-red-800 cursor-pointer"
                 />
               </li>
-              <li className="py-2 cursor-pointer">Home</li>
-              <li className="py-2 cursor-pointer">Projects</li>
-              <li className="py-2 cursor-pointer">Stakeholders</li>
-              <li className="py-2 cursor-pointer">About Us</li>
-              <li className="py-2 cursor-pointer">Resources</li>
-              <li className="py-2 cursor-pointer">Contact Us</li>
+              <li className="py-2 cursor-pointer hover:text-green-600 ">
+                Home
+              </li>
+              <li className="py-2 cursor-pointer  hover:text-green-600">
+                Projects
+              </li>
+              <li className="py-2 cursor-pointer  hover:text-green-600">
+                Stakeholders
+              </li>
+              <li className="py-2 cursor-pointer  hover:text-green-600">
+                About Us
+              </li>
+              <li className="py-2 cursor-pointer  hover:text-green-600">
+                Resources
+              </li>
+              <li className="py-2 cursor-pointer  hover:text-green-600">
+                Contact Us
+              </li>
             </ul>
             <div>
               <ul className="flex flex-col gap-y-5 mb-10 text-center">
@@ -53,7 +65,7 @@ function Navbar() {
                   <ShoppingCart size={40} />
                 </li>
 
-                <div className=" px-3 py-1 bg-green-900 text-white rounded-xl text-3xl  w-fit mx-auto">
+                <div className=" px-3 py-1 bg-green-900 text-white rounded-xl cursor-pointer text-3xl  w-fit mx-auto">
                   Donate
                 </div>
               </ul>
