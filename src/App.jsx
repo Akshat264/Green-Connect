@@ -2,7 +2,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="h-full w-full mx-auto flex flex-col gap-10 ">
+      <div className="h-full w-full mx-auto flex flex-col gap-10">
         <section>
           <div className="home-background w-screen min-h-[600px] bg-no-repeat m-h-[899px] mx-auto px-3 lg:px-14 pt-10 ">
             <div className="flex flex-col align-middle gap-24 lg:flex-row lg:justify-between  items-center text-slate-100">
@@ -60,7 +60,7 @@ function App() {
 
         {/* Plant Tress */}
         <section className="mt-8 px-7">
-          <div className="flex flex-col items-center pointer-events-none select-none  w-full gap-5">
+          <div className="flex flex-col items-center mx-auto select-none text-center  w-full gap-5">
             <h2 className="font-bold text-emerald-800 text-2xl">PLANT TREES</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 items-center lg:gap-20 gap-y-3">
               <div className="text-center">
@@ -81,11 +81,11 @@ function App() {
               </div>
               <div className="text-center">
                 <img src="/States/Bihar.png" alt="Bihar" />
-                <span className="font-semibold lg:text-xl">Bihar</span>
+                <span className="font-semibold lg:text-xl ">Bihar</span>
               </div>
-              <div className="text-center">
+              <div className="text-center ">
                 <img src="/States/Gujarat.png" alt="Gujarat" />
-                <span className="font-semibold lg:text-xl">Gujarat</span>
+                <span className="font-semibold lg:text-xl ">Gujarat</span>
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@ function App() {
           <div className="relative ">
             <img src="Backgrounds/Sustainability.png" alt="Sustainability" />
             <div className="absolute inset-0 ">
-              <div className="flex flex-col text-center pt-4  md:gap-9 lg:gap-16 md:pt-20 px-10 text-balance tracking-tight">
+              <div className="lg:pt-56 md:pt-24 pt-4 flex flex-col text-center  md:gap-9 lg:gap-16  px-10 text-balance tracking-tight">
                 <h1 className=" text-balance  font-extrabold text-black text-xl leading-5 sm:text-3xl md:text-5xl lg:text-7xl ">
                   SUSTAINABILITY FOR BUSINESS
                 </h1>
@@ -125,7 +125,7 @@ function App() {
             />
 
             <div className="absolute inset-0  text-white">
-              <div className="pt-2 flex flex-col text-center gap-2 md:gap-9 lg:gap-16 md:pt-20 px-10 text-balance tracking-tight">
+              <div className="lg:pt-56 md:pt-24 pt-4 flex flex-col text-center gap-1 md:gap-9 lg:gap-16  px-10 text-balance tracking-tight">
                 <h1 className=" text-balance  font-extrabold  leading-6 text-xl sm:text-3xl md:text-5xl lg:text-7xl ">
                   TOGETHER PLANTING A FOREST
                 </h1>
@@ -156,7 +156,7 @@ function App() {
                 height={700}
                 alt=""
               />
-              <div className="absolute inset-0 pt-[340px] ">
+              <div className="absolute inset-0 pt-[330px] ">
                 <h1 className="text-center text-white my-auto font-extrabold text-5xl">
                   Individual
                 </h1>
@@ -170,7 +170,7 @@ function App() {
                 height={700}
                 alt=""
               />
-              <div className="absolute inset-0 pt-[340px] ">
+              <div className="absolute inset-0 pt-[330px] ">
                 <h1 className="text-center text-white my-auto font-extrabold text-5xl">
                   BUSINESSES
                 </h1>
@@ -184,15 +184,109 @@ function App() {
                 height={700}
                 alt=""
               />
-              <div className="absolute inset-0 pt-[340px] ">
+              <div className="absolute inset-0 pt-[330px] ">
                 <h1 className="text-center text-white my-auto font-extrabold text-5xl">
                   SCHOOLS
                 </h1>
               </div>
             </div>
           </div>
-          <div className="mx-auto">
-            <img src="moe.png" alt="" />
+          <div className="mx-auto text-center px-5 select-none ">
+            <img className="mx-auto " src="moe.png" alt="" />
+            <p className="text-balance tracking-tight leading-5 text-sm md:text-md lg:text-2xl">
+              We work with amazing reforestation partners around the country
+              that need your support to help get trees in the ground.
+            </p>
+            <div>
+              <a
+                className="mt-8 inline-flex items-center justify-center cursor-pointer rounded-xl bg-green-900 py-3 px-6 text-base font-medium text-white shadow-xl shadow-green-400/75 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+                href="#"
+              >
+                LEARN MORE ABOUT OUR PATNERSHIP
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Reforestation */}
+        <section>
+          <div className="relative">
+            <img
+              className="opacity-90"
+              src="Backgrounds/Trees.png"
+              alt="Sustainability"
+            />
+
+            <div className="absolute inset-0  text-black">
+              <div className="lg:pt-56 md:pt-24 pt-10 flex flex-col text-center gap-3 md:gap-9 lg:gap-16  px-10 text-balance tracking-tight">
+                <h1 className=" text-balance  font-extrabold  leading-6 text-2xl sm:text-3xl md:text-5xl lg:text-7xl ">
+                  REFORESTATION
+                </h1>
+                <p className="text-md sm:text-2xl md:text-4xl lg:text-5xl font-semibold">
+                  PLANTING TREES ACROSS THE COUNTRY
+                </p>
+                <div className="flex mx-auto gap-x-4">
+                  <a
+                    className="lg:text-4xl md:text-2xl mt-1 inline-flex text- items-center justify-center rounded-xl bg-green-700 py-2 px-4 text-base font-medium text-white shadow-xl shadow-green-100/60 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+                    href="#"
+                  >
+                    WHY TREES
+                  </a>
+                  <a
+                    className="lg:text-4xl md:text-2xl mt-1 inline-flex text- items-center justify-center rounded-xl bg-green-700 py-2 px-4 text-base font-medium text-white shadow-xl shadow-green-100/60 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+                    href="#"
+                  >
+                    PLANT TREES
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* 25000 in one day */}
+        <section>
+          <div className="relative">
+            <img
+              className="opacity-90"
+              src="Backgrounds/oneday.png"
+              alt="Sustainability"
+            />
+
+            <div className="absolute inset-0  text-white">
+              <div className="pt-14 md:pt-24 lg:pt-52 flex flex-col text-center gap-2 md:gap-9 lg:gap-16 px-10 text-balance tracking-tight">
+                <h1 className=" text-balance  font-extrabold  leading-6 text-xl sm:text-3xl md:text-5xl lg:text-7xl ">
+                  TREE PLANTING
+                </h1>
+                <p className="text-sm md:text-2xl lg:text-3xl font-semibold">
+                  25,000+ PLANTED IN 1 DAY
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Interactive Map */}
+        <section>
+          <div className="relative">
+            <img className="opacity-90" src="Backgrounds/Map.png" alt="Map" />
+
+            <div className="absolute inset-0  text-white">
+              <div className="pt-10 md:pt-24 lg:pt-52 flex flex-col text-center gap-2 md:gap-9 lg:gap-16  px-10 text-balance tracking-tight">
+                <h1 className=" text-balance  font-extrabold  leading-6 text-xl sm:text-3xl md:text-5xl lg:text-7xl ">
+                  INTERACTIVE MAP
+                </h1>
+                <p className="text-sm md:text-2xl lg:text-3xl font-semibold">
+                  SEE THE STATES PLANTED BY OUR TEAM
+                </p>
+                <div>
+                  <a
+                    className=" md:text-2xl mt-1 inline-flex text- items-center justify-center rounded-xl bg-green-800 py-2 px-4 text-base font-medium text-white shadow-xl shadow-green-100/60 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+                    href="#"
+                  >
+                    EXPLORE
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>
