@@ -1,10 +1,12 @@
 import "./App.css";
 import Footer from "./assets/Footer";
+import Navbar from "./assets/Navbar";
 function App() {
   return (
     <>
       <div className="h-full w-full mx-auto flex flex-col gap-10">
-        <section>
+        <Navbar />
+        <section className="mt-14">
           <div className="home-background w-screen min-h-[600px] bg-no-repeat m-h-[899px] mx-auto px-3 lg:px-14 pt-10 ">
             <div className="flex flex-col align-middle gap-24 lg:flex-row lg:justify-between  items-center text-slate-100">
               <div className="flex flex-col text-center lg:text-left gap-2.5">
@@ -61,30 +63,30 @@ function App() {
 
         {/* Plant Tress */}
         <section className="mt-8 px-7">
-          <div className="flex flex-col items-center mx-auto select-none text-center  w-full gap-5">
+          <div className="flex flex-col items-center mx-auto select-none text-center  w-full gap-5 ">
             <h2 className="font-bold text-emerald-800 text-2xl">PLANT TREES</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 items-center lg:gap-20 gap-y-3">
-              <div className="text-center">
+            <div className="grid grid-cols-2 sm:grid-cols-3 items-center lg:gap-20 gap-y-3 lg:gap-x-52">
+              <div className="text-center hover:scale-105  sm:hover:scale-110 cursor-pointer">
                 <img src="/States/Uttrakhand.png" alt="Uttrakhand" />
                 <span className="font-semibold lg:text-xl">Uttrakhand</span>
               </div>
-              <div className="text-center">
+              <div className="text-center hover:scale-105  sm:hover:scale-110 cursor-pointer">
                 <img src="/States/Uttar Pradesh.png" alt="Uttar Pradesh" />
                 <span className="font-semibold lg:text-xl">Uttar Pradesh</span>
               </div>
-              <div className="text-center">
+              <div className="text-center hover:scale-105  sm:hover:scale-110 cursor-pointer">
                 <img src="/States/Rajasthan.png" alt="Rajasthan" />
                 <span className="font-semibold lg:text-xl">Rajasthan</span>
               </div>
-              <div className="text-center">
+              <div className="text-center hover:scale-105  sm:hover:scale-110 cursor-pointer">
                 <img src="/States/Punjab.png" alt="Punjab" />
                 <span className="font-semibold lg:text-xl">Punjab</span>
               </div>
-              <div className="text-center">
+              <div className="text-center hover:scale-105  sm:hover:scale-110 cursor-pointer">
                 <img src="/States/Bihar.png" alt="Bihar" />
                 <span className="font-semibold lg:text-xl ">Bihar</span>
               </div>
-              <div className="text-center ">
+              <div className="text-center hover:scale-105  sm:hover:scale-110 cursor-pointer">
                 <img src="/States/Gujarat.png" alt="Gujarat" />
                 <span className="font-semibold lg:text-xl ">Gujarat</span>
               </div>
@@ -106,7 +108,7 @@ function App() {
                 </p>
                 <div>
                   <a
-                    className="mt-2 inline-flex text- items-center justify-center rounded-xl bg-green-600 py-2 px-4 text-base font-medium text-white shadow-xl shadow-green-100/60 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+                    className=" lg:text-3xl mt-2 inline-flex text- items-center justify-center rounded-xl bg-green-600 py-2 px-4 text-base font-medium text-white shadow-xl shadow-green-100/60 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
                     href="#"
                   >
                     Become a Business Partner
@@ -135,7 +137,7 @@ function App() {
                 </p>
                 <div>
                   <a
-                    className="mt-1 inline-flex text- items-center justify-center rounded-xl bg-green-600 py-2 px-4 text-base font-medium text-white shadow-xl shadow-green-100/60 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+                    className=" lg:text-3xl mt-1 inline-flex text- items-center justify-center rounded-xl bg-green-600 py-2 px-4 text-base font-medium text-white shadow-xl shadow-green-100/60 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
                     href="#"
                   >
                     About Us
@@ -177,6 +179,7 @@ function App() {
                 </h1>
               </div>
             </div>
+
             <div className="work relative mx-auto">
               <img
                 className="hover:opacity-50"
@@ -192,6 +195,7 @@ function App() {
               </div>
             </div>
           </div>
+          {/* Ministry of Government */}
           <div className="mx-auto text-center px-5 select-none ">
             <img className="mx-auto " src="moe.png" alt="" />
             <p className="text-balance tracking-tight leading-5 text-sm md:text-md lg:text-2xl">
@@ -200,7 +204,7 @@ function App() {
             </p>
             <div>
               <a
-                className="mt-8 inline-flex items-center justify-center cursor-pointer rounded-xl bg-green-900 py-3 px-6 text-base font-medium text-white shadow-xl shadow-green-400/75 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+                className="mt-8 inline-flex items-center justify-center cursor-pointer rounded-xl bg-green-800 py-3 px-6 text-base font-medium text-white shadow-xl shadow-green-200/50 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
                 href="#"
               >
                 LEARN MORE ABOUT OUR PATNERSHIP
@@ -280,7 +284,7 @@ function App() {
                 </p>
                 <div>
                   <a
-                    className=" md:text-2xl mt-1 inline-flex text- items-center justify-center rounded-xl bg-green-800 py-2 px-4 text-base font-medium text-white shadow-xl shadow-green-100/60 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+                    className="lg:text-3xl md:text-2xl mt-1 inline-flex text- items-center justify-center rounded-xl bg-green-800 py-2 px-4 text-base font-medium text-white shadow-xl shadow-green-100/60 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
                     href="#"
                   >
                     EXPLORE

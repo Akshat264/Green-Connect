@@ -68,7 +68,7 @@ function Footer() {
               placeholder="Your Message "
             />
             <button
-              className="block mx-auto bg-green-800 w-fit py-1 text-xl lg:text-2xl font-semibold rounded-xl px-3 lg:mt-8"
+              className="block mx-auto hover:scale-105  bg-green-800 w-fit py-1 text-xl lg:text-2xl font-semibold rounded-xl px-3 lg:mt-8"
               type="submit"
             >
               Submit
