@@ -149,7 +149,7 @@ function App() {
         {/* Activities */}
         <section>
           <div className="grid grid-cols-1 mx-auto align-middle items-center lg:grid-cols-3 gap-2">
-            <div className="relative mx-auto">
+            <div className="work relative mx-auto">
               <img
                 className=""
                 src="Activities/act1.png"
@@ -158,12 +158,12 @@ function App() {
                 alt=""
               />
               <div className="absolute inset-0 pt-[330px] ">
-                <h1 className="text-center text-white my-auto font-extrabold text-5xl">
-                  Individual
+                <h1 className=" text-center text-white my-auto font-extrabold text-5xl">
+                  <div className="layer">Individual</div>
                 </h1>
               </div>
             </div>
-            <div className="relative mx-auto">
+            <div className="work relative mx-auto">
               <img
                 className="hover:opacity-50"
                 src="Activities/act2.png"
@@ -173,11 +173,11 @@ function App() {
               />
               <div className="absolute inset-0 pt-[330px] ">
                 <h1 className="text-center text-white my-auto font-extrabold text-5xl">
-                  BUSINESSES
+                  <div className="layer">BUSINESSES</div>
                 </h1>
               </div>
             </div>
-            <div className="relative mx-auto">
+            <div className="work relative mx-auto">
               <img
                 className="hover:opacity-50"
                 src="Activities/act3.png"
@@ -187,7 +187,7 @@ function App() {
               />
               <div className="absolute inset-0 pt-[330px] ">
                 <h1 className="text-center text-white my-auto font-extrabold text-5xl">
-                  SCHOOLS
+                  <div className="layer">SCHOOLS</div>
                 </h1>
               </div>
             </div>
