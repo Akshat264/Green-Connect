@@ -44,7 +44,7 @@ const Login = () => {
         <p className="forgot-password">Forgot Password?</p>
       </form>
       <p className="switch-form">
-        Don't have an account? <button className="switch-button">Sign Up</button>
+        Don't have an account? <a href='/createaccount' className="switch-button">Sign Up</a>
       </p>
     </div>
     <Footer/>
