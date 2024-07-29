@@ -41,10 +41,10 @@ function Navbar() {
               <a href="/about">About Us</a>
               </li>
               <li className="py-2 lg:p-0  cursor-pointer  hover:text-green-600">
-                Resources
+                <a href="/resources">Resources</a>
               </li>
               <li className="py-2 lg:p-0 cursor-pointer  hover:text-green-600">
-                Contact Us
+                <a href="/contact">Contact Us</a>
               </li>
             </ul>
             <div className="flex lg:items-center">

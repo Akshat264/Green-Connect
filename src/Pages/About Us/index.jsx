@@ -1,9 +1,6 @@
 import "./index.css"
 import Footer from "../../Components/Footer";
 import Navbar from "../../Components/Navbar";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
-import { faFacebook, faSquareXTwitter, faPinterest, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import handshakeImage from './assets/handshake.jpg';
 import indiatree from "./assets/india_tree.jpg";
 import globe from "./assets/globe_india.jpg";
@@ -14,6 +11,7 @@ import we_report from "./assets/we_report.jpg";
 import community_plan from "./assets/community_planting.jpg";
 import partners from "./assets/parterners.jpg";
 import Process from "../../Components/process";
+import SocialIcons from "../../Components/Social_Icons";
 const About=()=>{
       return(
         <div className="about">
@@ -23,13 +21,7 @@ const About=()=>{
             <h2>A Non Profit Orgainzation focussed on Country's Reforestation</h2>
             <a href="" className="link_ab"> Get in touch</a>
             </div>
-            <div className="social_icons_ab">
-              <FontAwesomeIcon icon={faEnvelope} className="fa-2x custom-color-hover"/>
-              <FontAwesomeIcon icon={faFacebook} className="fa-2x custom-color-hover"/>
-              <FontAwesomeIcon icon={faSquareXTwitter} className="fa-2x custom-color-hover"/>
-              <FontAwesomeIcon icon={faPinterest} className="fa-2x custom-color-hover"/>
-              <FontAwesomeIcon icon={faLinkedin} className="fa-2x custom-color-hover"/>
-            </div>
+            <SocialIcons/>
             <hr style={{
                   width: '90%', 
                   margin: '0 auto',
