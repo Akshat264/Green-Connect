@@ -29,16 +29,16 @@ function Navbar() {
                 />
               </li>
               <li className="py-2 lg:p-0 cursor-pointer hover:text-green-600 ">
-                Home
+                <a href="/">Home</a>
               </li>
               <li className="py-2 lg:p-0 cursor-pointer  hover:text-green-600">
-                Projects
+              <a href="#">Projects</a>
               </li>
               <li className="py-2 lg:p-0 cursor-pointer  hover:text-green-600">
-                Stakeholders
+              <a href="#">Stakeholders</a>
               </li>
               <li className="py-2 lg:p-0  cursor-pointer  hover:text-green-600">
-                About Us
+              <a href="/about">About Us</a>
               </li>
               <li className="py-2 lg:p-0  cursor-pointer  hover:text-green-600">
                 Resources
@@ -58,7 +58,7 @@ function Navbar() {
                   />
                 </li>
                 <li className="py-2 lg:py-0 lg:p-0 text-3xl  lg:text-sm">
-                  Login
+                  <a href="/login">Login</a>
                 </li>
                 <li className="relative py-2 lg:p-0 w-fit mx-auto ">
                   <sup className="absolute -right-2 text-2xl text-red-400">
