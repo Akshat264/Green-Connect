@@ -158,3 +158,47 @@
     flex-wrap: wrap;
     gap: 6vw;
 }
+@media (max-width: 425px){
+    .main_ab h1{
+        font-weight: 800;
+        width: 60vw;
+        font-size: 6vw;
+    }
+    .main_ab h2{
+        font-weight: 700;
+        font-size: 4vw;
+    }
+    .ourvision_ab h1{
+        font-weight: 600;
+        font-size: 5vw;
+    }
+    .ourvision_ab p{
+        font-size: 3vw;
+    }
+    .wanttohelp_ab h2{
+        color: white;
+        font-weight: 800;
+        font-size: 3.1vw;
+       }
+       .link_ab2{
+           color: black;
+           background-color: white;
+           font-size: 2vw;
+       }
+       .wanttohelp_ab{
+        gap: 1vw;
+       }
+       .ov1 span{
+        font-weight: 600;
+        font-size: 4vw;
+    }
+    .process_ab h1{
+        font-weight: 700;
+        font-size: 6vw;
+        color: white;
+        margin: auto;
+    }
+    .process_ab{
+        margin: 0;
+    }
+}
