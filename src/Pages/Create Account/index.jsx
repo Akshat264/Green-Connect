@@ -53,6 +53,7 @@ function CreateAccount() {
         <div className="form-group">
           <label htmlFor="firstName">First Name</label>
           <input
+          className="text_sp"
             type="text"
             id="firstName"
             value={firstName}
@@ -65,6 +66,7 @@ function CreateAccount() {
           <label htmlFor="lastName">Last Name</label>
           <input
             type="text"
+            className="text_sp"
             id="lastName"
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
@@ -76,6 +78,7 @@ function CreateAccount() {
           <label htmlFor="email">Email id*</label>
           <input
             type="email"
+            className="text_sp"
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -87,6 +90,7 @@ function CreateAccount() {
           <label htmlFor="password">Password*</label>
           <input
             type="password"
+            className="text_sp"
             id="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}

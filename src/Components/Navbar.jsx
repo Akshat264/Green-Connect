@@ -35,7 +35,7 @@ function Navbar() {
               <a href="#">Projects</a>
               </li>
               <li className="py-2 lg:p-0 cursor-pointer  hover:text-green-600">
-              <a href="#">Stakeholders</a>
+              <a href="/stakeholders">Stakeholders</a>
               </li>
               <li className="py-2 lg:p-0  cursor-pointer  hover:text-green-600">
               <a href="/about">About Us</a>

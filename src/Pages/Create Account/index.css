@@ -31,9 +31,7 @@
     width: 15px;
   }
   
-  input[type="text"],
-  input[type="email"],
-  input[type="password"] {
+.text_sp{
     width: 100%;
     padding: 0.8rem;
     border: 1px solid #ccc;
