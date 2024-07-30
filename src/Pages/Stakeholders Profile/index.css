@@ -76,7 +76,12 @@
   font-size: 18px;
   font-weight: bold;
 }
-
+.profile-details h2{
+  font-weight: 700;
+}
+.profile-details h3{
+  font-weight: 700;
+}
 .edit-button {
   background-color: #4CAF50;
   color: white;
@@ -177,8 +182,14 @@
 }
 
 @media (max-width: 768px) {
+
   .profile-card {
     flex-direction: column;
+  }
+  .profile-image img {
+    border-radius: 50%;
+    width: 20vw;
+    object-fit: cover;
   }
 
   .profile-image {
