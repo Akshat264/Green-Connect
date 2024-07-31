@@ -29,7 +29,7 @@ const Resources=()=>{
         </div>
         <SocialIcons/>
         <div className="section2_rsc">
-            <img src={section1_1} width="20%"/>
+            <img src={section1_1} className="section2_rsc_img" width="20%"/>
             <div className="section2_1_rsc">
             <h2>Knowledge Hub</h2>
             <p>Discover and Learn: Dive into our comprehensive Knowledge Hub to access a wealth of information on urban

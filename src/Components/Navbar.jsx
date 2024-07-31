@@ -32,7 +32,7 @@ function Navbar() {
                 <a href="/">Home</a>
               </li>
               <li className="py-2 lg:p-0 cursor-pointer  hover:text-green-600">
-              <a href="#">Projects</a>
+              <a href="/projects">Projects</a>
               </li>
               <li className="py-2 lg:p-0 cursor-pointer  hover:text-green-600">
               <a href="/stakeholders">Stakeholders</a>
@@ -68,7 +68,7 @@ function Navbar() {
                 </li>
 
                 <div className="lg:text-sm  px-3 py-1 bg-green-900 text-white rounded-xl cursor-pointer text-3xl  w-fit mx-auto">
-                  Donate
+                 <a href="/planttrees"> Donate</a>
                 </div>
               </ul>
             </div>

@@ -21,6 +21,7 @@
     font-weight: 800;
     width: 40vw;
     font-size: 4vw;
+    text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
 }
 .main_ab h2{
     font-weight: 700;
@@ -75,6 +76,7 @@
     box-sizing: border-box;
 }
 .wanttohelp_ab h2{
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
  color: white;
  font-weight: 800;
  font-size: 1.7vw;
@@ -122,7 +124,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 1.5em;
+    font-weight: 900;
     z-index: 2;
   }
   
@@ -131,7 +133,7 @@
     background-color: rgb(7, 241, 7);
 }
 .ov1 span{
-    font-weight: 600;
+    font-weight: 700;
     font-size: 2vw;
 }
 .process_ab{
@@ -148,6 +150,7 @@
     font-size: 4vw;
     color: white;
     margin: auto;
+    text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
 }
 .process_ab_2{
     display: flex;

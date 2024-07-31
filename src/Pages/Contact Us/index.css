@@ -117,24 +117,29 @@ body{
     max-width: 60%;
     margin-left: 20vw;
   }
-  
+  .contact-form h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
   form {
     display: grid;
     gap: 15px;
   }
   
-  input,
-  textarea {
+.contact-form input {
     width: 100%;
-    padding: 10px;
+    padding: 2vh;
     border: 1px solid #ddd;
     border-radius: 4px;
+    margin-bottom: 3vh;
+    font-size: 14px;
   }
   
-  textarea {
+ .contact-form textarea {
     height: 100px;
+    padding: 2vh;
+    font-size: 14px;
   }
-  
   .form-actions {
     display: flex;
     gap: 10px;
@@ -148,6 +153,7 @@ body{
     cursor: pointer;
     text-align: center;
     justify-content: center;
+    max-width: 20vw;
   }
   
   .button {
@@ -162,6 +168,7 @@ body{
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin-right: 1vh;
   }
   
   .icon {

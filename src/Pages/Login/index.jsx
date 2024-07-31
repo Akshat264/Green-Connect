@@ -40,7 +40,7 @@ const Login = () => {
             required
           />
         </div>
-        <button type="submit">Login</button>
+        <button type="submit" className='btn_submit_login'>Login</button>
         <p className="forgot-password">Forgot Password?</p>
       </form>
       <p className="switch-form">

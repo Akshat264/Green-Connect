@@ -60,7 +60,7 @@ const ContactPage = () => {
             <br />
             Shelburne, Vermont, 05482
             <br />
-            United States
+            India
           </address>
         </section>
 
@@ -71,6 +71,7 @@ const ContactPage = () => {
               <input
                 type="text"
                 name="name"
+                className="text_ct"
                 placeholder="Name*"
                 value={formData.name}
                 onChange={handleChange}

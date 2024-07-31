@@ -12,11 +12,15 @@
    font-weight: 700;
    font-size: 4vw;
    margin-right: 10vw;
+   text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
 }
 .header_rsc p{
     font-size: 1vw;
     max-width: 30%;
     margin-right: 4vw;
+}
+.section2_rsc_img{
+    border-radius: 50%;
 }
 .section2_rsc{
     display: flex;

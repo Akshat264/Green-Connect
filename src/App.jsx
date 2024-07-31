@@ -6,6 +6,8 @@ import ContactPage from "./Pages/Contact Us";
 import Resources from "./Pages/Resources";
 import Profile from "./Pages/Stakeholders Profile";
 import Stakeholders from "./Pages/Stakeholders";
+import PlantTrees from "./Pages/Plant Trees";
+import Project from "./Pages/Project Directory";
 import "./App.css";
 import { Route, Routes } from 'react-router-dom';
 function App() {
@@ -20,6 +22,8 @@ function App() {
     <Route path="/resources" element={<Resources/>}/>
     <Route path="/profile" element={<Profile/>}/>
     <Route path="/stakeholders" element={<Stakeholders/>}/>
+    <Route path="/planttrees" element={<PlantTrees/>}/>
+    <Route path="/projects" element={<Project/>}/>
   </Routes>
   </div>
   );

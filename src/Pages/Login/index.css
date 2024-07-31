@@ -47,7 +47,6 @@
 }
 
 button[type="submit"] {
-  width: 100%;
   padding: 10px;
   border: none;
   color: white;
@@ -56,13 +55,16 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-button[type="submit"] {
+.btn_submit_login{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  color: white;
   background-color: #4E7657;
 }
 
 button[type="submit"]:hover {
   background-color: #42a358;
-
 }
 
 .switch-form {

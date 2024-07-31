@@ -12,6 +12,9 @@
 .head_process{
     font-weight: 700;
 }
+.process_com_ab img{
+    border-radius: 50%;
+}
 .para_process{
     max-width: 100%;
     text-align: center;
