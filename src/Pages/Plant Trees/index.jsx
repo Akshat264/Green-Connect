@@ -42,10 +42,10 @@ function PlantTrees() {
           <li> Supporting local communities from city to forest</li>
         </ol>
 
-        <form onSubmit={handleEvent} className="border-2 border-slate-300 m-2" >
+        <form onSubmit={handleEvent} className="border-2 border-slate-300 m-2 " >
         <div className="flex justify-evenly m-4 gap-3 ">
       <button
-        className={` px-2 lg:px-6 py-2 font-light border rounded hover:scale-110 transition-transform duration-300 ${
+        className={` px-2 min-w-[100px] text-sm lg:text-lg lg:px-6 py-2 font-light border rounded hover:scale-110 transition-transform duration-300 ${
           activeButton === 'button1' ? 'bg-green-500 text-white' : 'bg-gray-200'
         }`}
         onClick={() => handleButtonClick('button1')}
@@ -53,7 +53,7 @@ function PlantTrees() {
         One time Donation
       </button>
       <button
-        className={` px-2 lg:px-6 py-2 font-light border rounded hover:scale-110 transition-transform duration-300 ${
+        className={` px-1 min-w-[100px]  text-sm lg:text-lg lg:px-6 py-2 font-light border rounded hover:scale-110 transition-transform duration-300 ${
           activeButton === 'button2' ? 'bg-green-500 text-white' : 'bg-gray-200'
         }`}
         onClick={() => handleButtonClick('button2')}
@@ -74,7 +74,7 @@ function PlantTrees() {
         </form>
 
         <div className = "m-4 p-2 flex flex-row justify-center items-center rounded-lg bg-[#E34141] hover:bg-green-400 transition-colors duration-300 cursor-pointer text-white  ">
-           <button className= "border-none leading-2 text-xl px-1 font-light ">Plant Trees</button>
+           <button className= "border-none leading-2 text-xl px-1 font-light min-w-[120px] ">Plant Trees</button>
            <HiOutlineShoppingBag size={25}/>
         </div>
         <h2 className = "text-black text-center text-xl font-light">Looking to plant trees every month?<span className="px-2">Join</span><span ><a href="#" className="underline cursor-pointer hover:text-green-400">The Grove.</a> </span></h2>
@@ -88,7 +88,7 @@ function PlantTrees() {
     {/* Join communities */}
     <h2 className = " mt-24 mb-4 text-center text-black  text-xl font-extrabold sm:text-2xl lg:text-3xl select-none">JOIN THE COMMUNITIES</h2>
     <div className=" lg:m-6 grid grid-cols-1 mx-auto  lg:grid-cols-3 gap-2 ">
-    <div className="_pt_work relative mx-auto  w-[400px]  h-[500px] ">
+    <div className="_pt_work relative mx-auto  w-full  h-full ">
               <img
                 className=" h-full w-full"
                 src="./Communities/img1.jpg"
@@ -101,7 +101,7 @@ function PlantTrees() {
               </div>
             </div>
            
-            <div className="_pt_work relative mx-auto w-[400px] h-[500px] ">
+            <div className="_pt_work relative mx-auto w-full h-full ">
               <img
                 className="h-full w-full"
                 src="./Communities/img2.jpg"
@@ -114,7 +114,7 @@ function PlantTrees() {
               </div>
             </div>
 
-            <div className="_pt_work relative mx-auto w-[400px]  h-[500px]">
+            <div className="_pt_work relative mx-auto w-full  h-full">
               <img
                 className="h-full w-full"
                 src="./Communities/img3.jpg"
@@ -132,14 +132,14 @@ function PlantTrees() {
     {/* Recent planting */}
     <h2 className = " mt-16 mb-4 text-center text-black text-xl uppercase font-bold sm:text-2xl lg:text-3xl select-none">Recent plant trees for impact projects</h2>
           
-          <div className="grid m-20 grid-cols-1 sm:grid-cols-2 ">
+          <div className="grid m-4 lg:m-16 grid-cols-1 sm:grid-cols-2 ">
             <div className = " flex justify-center" >
             <img src ="./Projects/img1.jpg " className = " mb-6 sm:h-[420px] h-[320px]" />
             </div>
 
             <div className = "flex flex-col">
               <h2 className = "px-3 text-black text-2xl font-bold text-left mb-6 lg:mb-6 uppercase">MONARCH BUTTERFLY HABITAT</h2>
-              <p className = "px-3 mb-8 lg:mb-8 text-black text-left text-lg lg:font-light">Monarch butterfly populations have been dwindling over time
+              <p className = "px-3 mb-4 lg:mb-8 text-black text-left text-lg lg:font-light">Monarch butterfly populations have been dwindling over time
 due to the loss of milkweed and nectar plants, deforestationand 
 degradation of their overwintering grounds in California and
 Mexico, pesticide use, and climate change impacts like
@@ -147,21 +147,21 @@ out-of-season storms, severe temperature drops  and
 heavy rainfall. All of these factors have combined to create 
 a sharp decline, particularly in the past 20 years.
                                                </p>
-          <h3 className = " inline-block self-start px-3 mb-8 lg:mb-12 text-xl font-bold text-black  hover:text-green-400 transition-colors duration-300 cursor-pointer">Read More...</h3>
+          <h3 className = " inline-block self-start px-3 mb-4 lg:mb-12 text-xl font-bold text-black  hover:text-green-400 transition-colors duration-300 cursor-pointer"><a href="https://www.fs.usda.gov/wildflowers/pollinators/Monarch_Butterfly/habitat/#:~:text=Whether%20it's%20a%20field%2C%20roadside,Corps%20of%20Engineers%2C%20butterfly%20garden.">Read More...</a></h3>
             <div className= "px-3">
-               <button className = "px-4 py-2 rounded-lg bg-red-600 text-white text-center hover:bg-green-400 hover:scale-105 transition-all duration-300">Plant for impact</button>
+               <button className = "px-4 py-2 rounded-lg min-w-[150px] bg-red-600 text-white text-center hover:bg-green-400 hover:scale-105 transition-all duration-300">Plant for impact</button>
             </div>
             </div>
           </div>
 
 
-          <div className="grid m-20 grid-cols-1 sm:grid-cols-2 ">
+          <div className="grid m-4 lg:m-16 grid-cols-1 sm:grid-cols-2 ">
           <div className = " flex justify-center sm:order-2" >
             <img src ="./Projects/img2.jpg " className = " mb-6 h-[320] sm:h-[420px]  " />
             </div>
             <div className = "flex flex-col sm:order-1 ">
               <h2 className = "px-3 text-black text-2xl font-bold text-left mb-6 lg:mb-6 uppercase">FRUIT TREES CHANGE LIVES</h2>
-              <p className = "px-3 mb-8 lg:mb-8 text-black text-left text-lg lg:font-light">
+              <p className = "px-3 mb-4 lg:mb-8 text-black text-left text-lg lg:font-light">
 Much of our work in India is focused on planting fruit trees.
  Our amazing partners are working with local communities across 
 12 Indian states to plant fruit trees to fight hunger, improve local 
@@ -170,40 +170,40 @@ us make a huge difference. Each fruit tree we plant will equate to
 at least $10 USD in food and nutrition each year, with a cumulative 
 value of 5 million dollars garnered over the next 50-60 years.
                                                </p>
-            <h3 className = "inline-block self-start px-3 mb-8 lg:mb-12 text-xl font-bold text-black hover:text-green-400 transition-colors duration-300 cursor-pointer">Read More...</h3>
+            <h3 className = "inline-block self-start px-3 mb-4 lg:mb-12 text-xl font-bold text-black hover:text-green-400 transition-colors duration-300 cursor-pointer"><a href="https://uplink.weforum.org/uplink/s/uplink-contribution/a012o00001XvuidAAB/Fruit%20Trees%20Change%20Lives%E2%9C%AA">Read More...</a></h3>
             <div className= "px-3">
-               <button className = "px-4 py-2 rounded-lg bg-red-600 text-white text-center hover:bg-green-400 hover:scale-105 transition-all duration">Plant for impact</button>
+               <button className = "px-4 py-2 min-w-[150px] rounded-lg bg-red-600 text-white text-center hover:bg-green-400 hover:scale-105 transition-all duration">Plant for impact</button>
             </div>
             </div>
           </div>
 
-          <div className="grid m-20 grid-cols-1 sm:grid-cols-2 ">
+          <div className="grid m-4 lg:m-16 grid-cols-1 sm:grid-cols-2 ">
             <div className = " flex justify-center" >
             <img src ="./Projects/img3.jpg " className = " mb-6 h-[320] sm:h-[420px] " />
             </div>
             <div className = "flex flex-col">
             
               <h2 className = "px-3 text-black text-2xl font-bold text-left mb-6 lg:mb-6 uppercase">FOREST FIRE RESTORATION</h2>
-              <p className = "px-3 mb-8 lg:mb-8 text-black text-left text-lg lg:font-light">California&apos;s forests need active management in order to improve their 
+              <p className = "px-3 mb-4 lg:mb-8 text-black text-left text-lg lg:font-light">California&apos;s forests need active management in order to improve their 
 health, reduce the risk of major wildfires and pest infestations, and
 protect this beautiful natural playground for future generations.
 Our amazing reforestation partners work with several state and 
 federal forestry assistance programs, as well as private landowners, 
 aiming to improve the health and productivity of forest lands.
                                                </p>
-            <h3 className = " inline-block self-start px-3 mb-8 lg:mb-12 text-xl font-bold text-black hover:text-green-400 transition-colors duration-300 cursor-pointer">Read More...</h3>
+            <h3 className = " inline-block self-start px-3 mb-4 lg:mb-12 text-xl font-bold text-black hover:text-green-400 transition-colors duration-300 cursor-pointer"><a href="https://www.forestry.oregonstate.edu/undergraduate-programs/forestry/forest-restoration-and-fire#:~:text=The%20forest%20restoration%20and%20fire,into%20active%20forest%20management%20planning.">Read More...</a></h3>
             <div className= "px-3">
-               <button className = "px-4 py-2 rounded-lg bg-red-600 text-white text-center hover:bg-green-400 hover:scale-105 transition-all duration-300">Plant for impact</button>
+               <button className = "px-4 py-2 rounded-lg min-w-[150px] bg-red-600 text-white text-center hover:bg-green-400 hover:scale-105 transition-all duration-300">Plant for impact</button>
             </div>
             </div>
           </div>
 
-<div className="w-full min-h-[700px] relative " style={{backgroundImage:"url(./Fund/img1.jpg)"}}>
+<div className="w-full flex min-h-[700px] relative " style={{backgroundImage:"url(./Fund/img1.jpg)"}}>
   <div className = "flex flex-col justify-center  items-center absolute inset-0">
    <h1 className = " m-4 text-center text-white text-3xl uppercase select-none"> Want to give more?</h1>
    <h1 className = " m-4 text-center text-white text-3xl uppercase select-none">Help spread the word and get more trees planted!</h1>
-  <div>
-    <button className = "mt-20 px-4 py-2 rounded-lg bg-red-500 text-white text-center hover:bg-green-400 hover:scale-105 transition-all duration-300">Start a Fundriser</button>
+  <div className = "">
+    <button className = "mt-20 px-2 py-2 min-w-[150px] rounded-lg bg-red-500 text-white text-center hover:bg-green-400 hover:scale-105 transition-all duration-300">Start a Fundriser</button>
   </div>
   </div>
 </div>

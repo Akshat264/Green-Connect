@@ -19,7 +19,7 @@ const About=()=>{
             <div className="main_ab">
             <h1>WE ARE ONE TREE PLANTED</h1>
             <h2>A Non Profit Orgainzation focussed on Country's Reforestation</h2>
-            <a href="" className="link_ab"> Get in touch</a>
+            <a href="/contact" className="link_ab"> Get in touch</a>
             </div>
             <SocialIcons/>
             <hr style={{
@@ -34,7 +34,7 @@ const About=()=>{
             </div>
             <div className="wanttohelp_ab">
               <h2>WANT TO HELP MAKE A POSITIVE IMPACT TO THE ENVIRONMENT:</h2>
-              <span><a href="#" className="link_ab link_ab2">PLANT TREES</a></span>
+              <span><a href="/planttrees" className="link_ab link_ab2">PLANT TREES</a></span>
              </div>
              <div className="ourvision_ab">
               <h1>TOGETHER, PLANTING A FOREST</h1>

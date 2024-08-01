@@ -210,3 +210,26 @@ body{
       grid-column: span 2;
     }
   }
+  @media (max-width: 425px){
+    .contact-info{
+      text-align: center;
+    }
+    .contact-info {
+      margin-bottom: 30px;
+      max-width: 100%;
+      margin-left: 0;
+      padding: 0 2vh 0 2vh;
+    }
+    .contact-form {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 5px;
+      max-width: 95%;
+      margin-left: 2vw;
+    }
+    .button{
+      font-size: 2vw;
+      max-width: fit-content;
+      padding-right: 2px;
+    }
+  }

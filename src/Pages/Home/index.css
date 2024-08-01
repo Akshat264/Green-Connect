@@ -1,6 +1,9 @@
 .home-background{
     background-image: url('./assets/Home Background.png');
 }
+.main_width{
+  max-width: 100%;
+}
 .layer{
     width:100%;
     position: absolute;

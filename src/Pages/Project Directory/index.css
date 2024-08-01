@@ -40,10 +40,6 @@
 .select_pd select:focus{
     outline: none;
 }
-.select_pd select option{
-    background-color: rgb(10, 150, 10);
-    color: white;
-}
 .section2_pd{
     display: flex;
     justify-content: center;

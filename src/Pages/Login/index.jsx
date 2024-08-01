@@ -41,7 +41,6 @@ const Login = () => {
           />
         </div>
         <button type="submit" className='btn_submit_login'>Login</button>
-        <p className="forgot-password">Forgot Password?</p>
       </form>
       <p className="switch-form">
         Don't have an account? <a href='/createaccount' className="switch-button">Sign Up</a>
